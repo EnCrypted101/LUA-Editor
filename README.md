@@ -24,7 +24,7 @@ Feel free to modify the code and experiment with different LUA scripts.
 
 This project utilizes the following external libraries:
 
-- ACE Editor (Version 1.4.12) - [https://ace.c9.io/](https://ace.c9.io/)
+- ACE Editor (Version 1.4.14) - [https://ace.c9.io/](https://ace.c9.io/)
 
 The ACE editor library is included via a CDN link in the HTML file.
 
