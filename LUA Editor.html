@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LUA Editor</title>
+    <style type="text/css">
+        #editor {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="editor">print("Hello, World!")</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+<script>
+    var editor = ace.edit("editor");
+	editor.setTheme("ace/theme/monokai");
+	editor.session.setMode("ace/mode/lua");
+	editor.setShowPrintMargin(false);
+</script>
+
+</body>
+</html>
