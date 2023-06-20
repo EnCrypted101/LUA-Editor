@@ -1,6 +1,3 @@
-# LUA-Editor
-This repository contains a simple HTML file that implements a LUA code editor using the ACE editor library. The editor provides syntax highlighting and a monokai theme for a better coding experience.
-
 # LUA Editor
 
 This repository contains a simple HTML file that implements a LUA code editor using the ACE editor library. The editor provides syntax highlighting and a monokai theme for a better coding experience.
